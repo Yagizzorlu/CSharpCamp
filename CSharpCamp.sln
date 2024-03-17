@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intro", "Intro\Intro.csproj", "{82FB332E-128F-43C6-9D60-26879C6C561A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intro", "Intro\Intro.csproj", "{82FB332E-128F-43C6-9D60-26879C6C561A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operatörler", "Operatörler\Operatörler.csproj", "{C3395E52-5086-4380-8B04-FF4D86DC99E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operatörler", "Operatörler\Operatörler.csproj", "{C3395E52-5086-4380-8B04-FF4D86DC99E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCase", "SwitchCase\SwitchCase.csproj", "{97632369-5CA7-4738-8624-66396EA16F33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchCase", "SwitchCase\SwitchCase.csproj", "{97632369-5CA7-4738-8624-66396EA16F33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeConversion", "TypeConversion\TypeConversion.csproj", "{AC1A46A2-B124-4FEF-BAD3-DEFC07849989}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeConversion", "TypeConversion\TypeConversion.csproj", "{AC1A46A2-B124-4FEF-BAD3-DEFC07849989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KosulYapilari", "KosulYapilari\KosulYapilari.csproj", "{C79AF379-3B83-40FA-9276-D65BE4459AF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donguler", "Donguler\Donguler.csproj", "{3FD4A4D1-89D7-48DE-9172-49DBAAFA765B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{AC1A46A2-B124-4FEF-BAD3-DEFC07849989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC1A46A2-B124-4FEF-BAD3-DEFC07849989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC1A46A2-B124-4FEF-BAD3-DEFC07849989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C79AF379-3B83-40FA-9276-D65BE4459AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C79AF379-3B83-40FA-9276-D65BE4459AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C79AF379-3B83-40FA-9276-D65BE4459AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C79AF379-3B83-40FA-9276-D65BE4459AF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FD4A4D1-89D7-48DE-9172-49DBAAFA765B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD4A4D1-89D7-48DE-9172-49DBAAFA765B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD4A4D1-89D7-48DE-9172-49DBAAFA765B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD4A4D1-89D7-48DE-9172-49DBAAFA765B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
