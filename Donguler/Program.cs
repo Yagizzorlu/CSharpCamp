@@ -41,6 +41,21 @@
                                  //100'ü aştığı zaman Kosul = false; eşitliği sağladık.
             }
             #endregion
+
+            #region Do While Döngüsü
+
+            bool Kosul2 = false;
+            while(Kosul2)
+            {
+                Console.WriteLine("Yağız");  //Şarta bakıyor ve uymadığı için yazdırmıyor.
+            }
+
+            do
+            {
+                Console.WriteLine("Yağız");  //Bir kere yazdırır sonra şarta bakar.Şartın uymadığını gördüğü için bir daha yazdırmaz.
+
+            } while (Kosul2);
+            #endregion
         }
     }
 }
